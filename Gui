@@ -5,13 +5,18 @@ local Window = Library.CreateLib("prankster#0001", "Serpent")
     local MainSection = Main:NewSection("Main")
 
 
-    MainSection:NewButton("Blue Dot", "no fps drops", function()
+    MainSection:NewButton("Blue Dot", "No fps drops", function()
         loadstring(game:HttpGet("raw.githubusercontent.com/narv2poor/DaHoodGUI/main/BlueDot", true))()
     end)
 
     MainSection:NewButton("Camlock", "No Fps drops", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/narv2poor/DaHoodGUI/main/Camlock'),true))()
     end)
+    
+      MainSection:NewButton("MoonGod", "No Fps drops", function()
+        loadstring(game:HttpGet(('raw.githubusercontent.com/narv2poor/DaHoodGUI/main/MoonGod'),true))()
+    end)
+
 
 
 
